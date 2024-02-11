@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>About Felister Njoki</title>
+    <script>
+        function toggleNav() {
+            var sideNav = document.getElementById("sideNav");
+            if (sideNav.style.display === "block") {
+                sideNav.style.display = "none";
+            } else {
+                sideNav.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="nav-toggle" onclick="toggleNav()">&#9776;</div>
+        <nav id="sideNav">
+        
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+           
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service-container">
+            <div class="service">
+                <div class="service-content">
+                    <img src="webdesign.jpg" alt="Web Design Icon">
+                    <h3>Web Design</h3>
+                    <p>Our web design services transform your vision into captivating digital experiences. With a blend of creativity and functionality, we craft visually stunning and user-friendly websites that leave a lasting impression. From conceptualization to execution, we ensure your website reflects your brand identity while delivering seamless navigation and optimal user experience.</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-content">
+                    <img src="debugging.jpg" alt="Debugging Icon">
+                    <h3>Debugging</h3>
+                    <p>Our debugging services ensure seamless operation of your website by identifying and resolving technical glitches. With meticulous attention to detail, we detect and rectify coding errors, compatibility issues, and performance bottlenecks, ensuring your website functions flawlessly across various platforms and devices. Boost user experience and minimize downtime with our expert debugging solutions.</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-content">
+                    <img src="coding.jpg" alt="Coding Icon">
+                    <h3>Coding</h3>
+                    <p>Our coding services empower your website with innovative solutions tailored to your unique needs. From frontend to backend development, we craft robust, scalable, and user-friendly websites using cutting-edge technologies. Elevate your online presence with our expertise in HTML, CSS, JavaScript, Python, and more, delivering tailored solutions that exceed expectations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2024-Felister_Njoki.All rights reserved.</p>
+    </footer>
+</body>
+</html>
